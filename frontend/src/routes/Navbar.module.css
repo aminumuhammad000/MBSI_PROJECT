@@ -1,0 +1,67 @@
+.Navbar{
+    z-index: 100;
+}
+.Navbar,
+.Navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    background-color: var(--blue-color);
+}
+.logoContainer{
+    width: 6em;
+}
+.logoContainer img{
+    width: 100%;
+    object-fit: cover;
+}
+.Navbar ul li .link{
+    color: var(--white-color);
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.link:hover{
+    border-bottom: 1px solid var(--white-color);
+}
+.btnContact{
+    padding: 10px 20px 10px 20px;
+    background-color: var(--blue-color);
+    border: 1px solid var(--white-color);
+    color: var(--white-color);
+}
+.menu{
+    display: none;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .Navbar{
+        justify-content: space-between;
+       padding-left: 2em;
+       padding-right: 2em;
+       z-index: 100;
+    }
+    .Navbar ul {
+        position: absolute;
+        flex-direction: column;
+        gap: 0.5em;
+        width: 100%;
+        inset: 0;
+    }
+    .btnContact {
+        display: none;
+    }
+    .menu {
+        display: block;
+        z-index: 10;
+    }
+}
+
+@media (min-width: 360px) {
+    nav {
+        display: flex;
+         /* z-index: 100; */
+    }
+}

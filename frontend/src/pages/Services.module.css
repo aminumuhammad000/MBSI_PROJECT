@@ -1,0 +1,50 @@
+.services {
+  padding: 3em 5em;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 40em;
+}
+.title {
+  font-size: 3em;
+  color: var(--blue-color);
+  margin-top: 1em;
+  line-height: 1.3em;
+  width: 100%;
+}
+.content .description {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin-top: 1em;
+}
+.servicesList{
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 4em;
+  flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .services {
+    padding: 2em 1em;
+  }
+  .content {
+    width: 100%;
+    padding: 0 1em;
+  }
+  .title {
+    font-size: 2.5em;
+    text-align: center;
+  }
+  .content .description {
+    font-size: 1em;
+    text-align: center;
+  }
+  .servicesList {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5em;
+  }
+}

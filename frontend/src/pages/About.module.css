@@ -1,0 +1,59 @@
+.about{
+    padding: 4em 5em;
+    background-color: var(--background-color);
+}
+.aboutContent{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.content{
+    line-height: 1.4;
+    width: 35em;
+}
+.content h1{
+    opacity: 0.8;
+    font-size: 2.8em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+     color: var(--blue-color);
+}
+.visionMission{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btnAbout{
+    margin-top: 4em;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    border: none;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}
+.imgContainer{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+@media (max-width: 768px) {
+    .aboutContent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .content, .imgContainer {
+        width: 100%;
+        margin-top: 5em;
+    }
+    .imgContainer img {
+        width: 100%;
+    }
+}
