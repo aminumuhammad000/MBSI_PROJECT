@@ -1,5 +1,6 @@
 .about{
-    padding: 4em 5em;
+   padding-top: 10em;
+   padding-left: 5em;
     background-color: var(--background-color);
 }
 .aboutContent{
@@ -45,6 +46,9 @@
     border-radius: 10px;
 }
 @media (max-width: 768px) {
+    .about{
+   padding-left: 2em;
+}
     .aboutContent {
         flex-direction: column;
         align-items: center;

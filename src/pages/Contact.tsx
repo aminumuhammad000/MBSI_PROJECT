@@ -1,7 +1,7 @@
 import style from "./Contact.module.css";
 const Contact = () => {
   return (
-    <div className={style.contactPage}>
+    <div className={style.contactPage} id="contact">
       <h1 className={style.headingTitle}>Find Us & Get in Touch</h1>
       <p className={style.description}>
         Use the map below to locate our office easily. Have a question or need

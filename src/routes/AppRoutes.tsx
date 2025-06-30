@@ -13,13 +13,13 @@ import Terms from "../pages/Terms";
 import NotFound from "../pages/NotFound";
 import Footer from "./Footer";
 import Services from "../pages/Services";
-import Banner from "../components/Banner";
+import Chat from "../pages/Chat";
+import style from "./AppRoutes.module.css";
 
 const AppRoutes = () => {
   return (
     <Router>
       <Navbar />
-      <Banner />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -34,6 +34,9 @@ const AppRoutes = () => {
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <div className={style.chatContainer}>
+        <Chat />
+      </div>
       <Footer />
     </Router>
   );

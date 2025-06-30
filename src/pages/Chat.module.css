@@ -1,0 +1,25 @@
+.chat{
+    width: 15em;
+    position: absolute;
+    right: 0;
+}
+.chatContainer{
+    position: absolute;
+    right: 3em;
+    bottom: 0.2em;
+    background-color: var(--white-color);    
+    padding: 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    border: 1px solid var(--blue-color);
+   box-shadow: 1px 1px 4px #ddd;
+}
+.chatButton{
+    border: none;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}

@@ -16,7 +16,6 @@
 .bannerContent{
     padding: 2em 5em;
     color: var(--white-color);
-    opacity: 0.7;
     z-index: 2;
 }
 .bannerContent .heading{
@@ -57,7 +56,6 @@
         line-height: 30px;
     }
     .bannerContent button{
-        width: 100%;
         font-size: 1rem;
     }
 }

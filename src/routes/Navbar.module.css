@@ -1,5 +1,7 @@
 .Navbar{
-    z-index: 100;
+    position: fixed;
+    width: 100vw;
+    z-index: 100; 
 }
 .Navbar,
 .Navbar ul{
@@ -38,17 +40,27 @@
 
 @media (max-width: 768px) {
     .Navbar{
-        justify-content: space-between;
+       position: fixed;
+       width: 100vw;
+       justify-content: space-between;
        padding-left: 2em;
        padding-right: 2em;
        z-index: 100;
     }
     .Navbar ul {
         position: absolute;
+        display: flex;
         flex-direction: column;
-        gap: 0.5em;
-        width: 100%;
+        justify-content: center;
+        align-items: start;
+        padding-left: 2em;
+        width: 100vw;
         inset: 0;
+        top: -7em;
+        height: 100vh;
+    }
+    .logoContainer{
+        z-index: 100;
     }
     .btnContact {
         display: none;
@@ -62,6 +74,5 @@
 @media (min-width: 360px) {
     nav {
         display: flex;
-         /* z-index: 100; */
     }
 }
