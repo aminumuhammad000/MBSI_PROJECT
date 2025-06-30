@@ -48,6 +48,7 @@
 @media (max-width: 768px) {
     .about{
    padding-left: 2em;
+   padding-right: 2em;
 }
     .aboutContent {
         flex-direction: column;

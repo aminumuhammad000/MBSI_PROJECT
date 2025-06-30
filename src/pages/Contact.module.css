@@ -79,6 +79,7 @@ a{
 @media (max-width: 768px) {
     .contactPage{
     padding-left: 2em;
+    padding-right: 2em;
 }
     .description {
         width: 100%;

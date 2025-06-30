@@ -1,7 +1,7 @@
 .Navbar{
     position: fixed;
     width: 100vw;
-    z-index: 100; 
+    z-index: 100;
 }
 .Navbar,
 .Navbar ul{
@@ -37,7 +37,6 @@
     color: var(--white-color);
     cursor: pointer;
 }
-
 @media (max-width: 768px) {
     .Navbar{
        position: fixed;
@@ -46,6 +45,9 @@
        padding-left: 2em;
        padding-right: 2em;
        z-index: 100;
+    }
+    .Navbar ul li{
+        display: block;
     }
     .Navbar ul {
         position: absolute;

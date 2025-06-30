@@ -26,7 +26,7 @@ const Navbar = () => {
       </div>
       {active && (
         <>
-          <ul>
+          <ul className={`${style.navLinks}`}>
             {routes.map((route) => (
               <li key={route.path}>
                 <Link to={route.path} className={style.link}>
