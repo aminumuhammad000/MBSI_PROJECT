@@ -5,11 +5,6 @@ const Chat = () => {
       <div className={style.chatContainer}>
         <p>Hi 👋</p>
       </div>
-      <button className={style.chatButton}>
-        <h1>
-          <i className="fa-solid fa-robot"></i>
-        </h1>
-      </button>
     </div>
   );
 };

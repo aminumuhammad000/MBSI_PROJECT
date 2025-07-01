@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import style from "./Navbar.module.css";
 import logo from "../assets/Images/logo.jpg";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const routes = [
   { path: "/about", label: "About" },
@@ -17,6 +17,21 @@ const Navbar = () => {
   const handleMenuClick = () => {
     setActive((prev) => !prev);
   };
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setActive(false);
+      } else {
+        setActive(true);
+      }
+    };
+    window.addEventListener("resize", handleResize);
+
+    // Set initial state on mount
+    handleResize();
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
   return (
     <nav className={style.Navbar}>
       <div className={style.logoContainer}>
