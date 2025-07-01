@@ -13,8 +13,6 @@ import Terms from "../pages/Terms";
 import NotFound from "../pages/NotFound";
 import Footer from "./Footer";
 import Services from "../pages/Services";
-import Chat from "../pages/Chat";
-import style from "./AppRoutes.module.css";
 
 const AppRoutes = () => {
   return (
@@ -34,9 +32,6 @@ const AppRoutes = () => {
         <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-      <div className={style.chatContainer}>
-        <Chat />
-      </div>
       <Footer />
     </Router>
   );
