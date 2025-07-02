@@ -1,0 +1,123 @@
+.cctvPage {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem 1rem;
+  background: #f9f9fb;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.header h1 {
+  font-size: 2.2rem;
+  color: #1a3d5d;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.header h2 {
+  font-size: 1.3rem;
+  color: #2d6a4f;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.header p {
+  color: #444;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.solutions {
+  margin-bottom: 2.5rem;
+}
+
+.solutions h3 {
+  color: #1a3d5d;
+  font-size: 1.15rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.solutionList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+}
+
+.solutionItem {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(30, 60, 90, 0.07);
+  padding: 1rem 1.3rem;
+  min-width: 220px;
+  font-size: 1rem;
+  color: #1a3d5d;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.systems {
+  margin-bottom: 2.5rem;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 8px rgba(30, 60, 90, 0.07);
+  padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+}
+
+.systems h3 {
+  color: #2d6a4f;
+  font-size: 1.13rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.systems ul {
+  list-style: disc inside;
+  padding-left: 0.5rem;
+  color: #444;
+  font-size: 1.01rem;
+  line-height: 1.7;
+}
+
+.systems li {
+  margin-bottom: 0.7rem;
+}
+
+.systems strong {
+  color: #1a3d5d;
+  font-weight: 600;
+}
+
+.features {
+  margin-bottom: 2.5rem;
+}
+
+.features h3 {
+  color: #1a3d5d;
+  font-size: 1.13rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.featureList {
+  list-style: square inside;
+  padding-left: 0.5rem;
+  color: #444;
+  font-size: 1.01rem;
+  line-height: 1.7;
+}
+
+.featureList li {
+  margin-bottom: 0.7rem;
+}

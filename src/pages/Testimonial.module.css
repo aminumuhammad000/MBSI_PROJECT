@@ -1,0 +1,23 @@
+.testimonial{
+    padding-left: 4em;
+    padding-right: 4em;
+    margin-top: 10em;
+}
+.description {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+  margin-top: 1em;
+}
+.testimonialCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.seeMore{
+    display: flex;
+    justify-content: end;
+    color: var(--blue-color);
+    margin-right: 4em;
+}
