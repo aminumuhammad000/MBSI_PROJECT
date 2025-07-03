@@ -1,12 +1,10 @@
 import ServiceCard from "../components/ServiceCard";
 import style from "./Services.module.css";
 
-// Import images from src/assets/Images
 import solarman from "../assets/Images/solarman.jpg";
 import carTracking from "../assets/Images/car-tracking.jpg";
 import cctv from "../assets/Images/cctv.jpg";
 import fuelSaving from "../assets/Images/fuel-saving.jpg";
-// import contract from "../assets/Images/contract.jpg";
 
 const services = [
   {

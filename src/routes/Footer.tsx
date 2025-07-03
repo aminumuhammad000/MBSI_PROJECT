@@ -27,9 +27,9 @@ const Footer = () => {
             </Link>
           </div>
           <p className={styles.bio}>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis,
-            accusamus laborum hic tempore ex magni voluptatibus quas quibusdam
-            deserunt temporibus?
+            Powering Nigeria with reliable solar energy, advanced GPS car
+            tracking, and smart security systems — trusted by individuals,
+            businesses, and communities.
           </p>
         </div>
         <ul>
@@ -73,7 +73,11 @@ const Footer = () => {
           </a>
         </div>
       </nav>
-      <p className={styles.copyright}>© 2025 MBSI. All rights reserved.</p>
+      <p className={styles.copyright}>
+        <Link to={"/terms"} className={styles.link}>
+          © 2025 MBSI. All rights reserved.
+        </Link>
+      </p>
     </div>
   );
 };
