@@ -1,7 +1,9 @@
 .about{
    padding-top: 10em;
    padding-left: 5em;
-    background-color: var(--background-color);
+   padding-right: 5em;
+   padding-bottom: 5em;
+   background-color: #d6cfee;
 }
 .aboutContent{
     display: flex;

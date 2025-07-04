@@ -1,7 +1,8 @@
 import styles from "./Banner.module.css";
-import solar from "../assets/Images/solarman.jpg";
-import cctv from "../assets/Images/cctv.jpg";
-import carTracking from "../assets/Images/car-tracking.jpg";
+import solar from "../assets/Images/solarBanner.png";
+import cctv from "../assets/Images/cctvBanner.png";
+import carTracking from "../assets/Images/trackerBanner.png";
+import fuelBanner from "../assets/Images/fuelBanner.png";
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -9,6 +10,7 @@ const bannerImages = [
   { src: solar, alt: "Solar Energy" },
   { src: cctv, alt: "CCTV" },
   { src: carTracking, alt: "Car Tracking" },
+  { src: fuelBanner, alt: "Fuel Saving" },
 ];
 const Banner = () => {
   const [current, setCurrent] = useState(() =>

@@ -1,6 +1,8 @@
 .services {
   padding-top: 10em;
   padding-left: 5em;
+  padding-right: 5em;
+  padding-bottom: 5em;
 }
 .content{
     display: flex;

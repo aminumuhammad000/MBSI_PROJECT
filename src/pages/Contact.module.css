@@ -1,10 +1,11 @@
 .contactPage{
+    background-color: #d6cfee;
     display: flex;
     flex-direction: column;
     padding-top: 10em;
     padding-left: 5em;
     gap: 20px;
-    /* margin-top: 5em; */
+    padding-bottom: 5em;
 }
 .contactPage .headingTitle{
     font-size: 2.5em;
