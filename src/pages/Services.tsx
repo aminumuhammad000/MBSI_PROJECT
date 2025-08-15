@@ -1,16 +1,16 @@
 import ServiceCard from "../components/ServiceCard";
 import style from "./Services.module.css";
-
 import solarman from "../assets/Images/solarman.jpg";
 import carTracking from "../assets/Images/car-tracking.jpg";
 import cctv from "../assets/Images/cctv.jpg";
+import contracts from "../assets/Images/cctvBanner.png";
+
 import fuelSaving from "../assets/Images/fuel-saving.jpg";
 
 const services = [
   {
     title: "Solar Energy Solutions",
-    description:
-      "Off-grid & hybrid systems (clean, reliable, and cost-effective power solutions)",
+    description: "",
     imageUrl: solarman,
   },
   {
@@ -20,22 +20,23 @@ const services = [
     imageUrl: carTracking,
   },
   {
-    title: "CCTV Surveillance Systems",
+    title: "IP CCTV",
     description:
-      "For enhanced security in offices, homes, shops, and government institutions",
+      "is a great way to keep an eye on your house or place of business from a mobile device.",
     imageUrl: cctv,
   },
   {
-    title: "Fuel Saving Devices",
+    title: "HD CCTV",
     description:
-      "Efficiency boosters for vehicles and generators designed to improve fuel efficiency",
+      "We can provide you with a dependable option if your budget does not permit an IP system",
     imageUrl: fuelSaving,
   },
-  // {
-  //   title: "General Contract",
-  //   description: "Procurement of all goods and services",
-  //   imageUrl: contract,
-  // },
+  {
+    title: "CCTV recording",
+    description:
+      " Should you be looking for a solution that allows you to store mass-data this would be the solution you are looking for",
+    imageUrl: contracts,
+  },
 ];
 
 const Services = () => {

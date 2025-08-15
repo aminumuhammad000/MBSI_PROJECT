@@ -7,34 +7,39 @@ interface FAQ {
 
 const faqs: FAQ[] = [
   {
-    question: "What services does MBSI offer?",
+    question: "What is MBSI Power and how does it work?",
     answer:
-      "MBSI provides solar energy solutions, GPS car tracking, CCTV installations, and general contracting across Nigeria.",
+      "MBS Solar Solutions  is a solar power solution platform that offers a reliable and efficient solar power source and flexible payment options through our financial and other partners",
   },
   {
-    question: "How long does it take to install a solar system?",
+    question: "What does MBSI offer?",
     answer:
-      "Most installations take between 1 to 3 days depending on the system size and site conditions.",
+      "MBSI offers two payment options namely, Outright purchase and Deferred payment.",
   },
   {
-    question: "Can I track my vehicle from anywhere?",
+    question: "What is deferred payment?",
     answer:
-      "Yes. With MBSI GPS tracking, you can monitor your vehicle in real time from your mobile phone or PC, anywhere in the world.",
+      "Deferred payment is a finance model where a customer has access to spreading payment for a solar power solution purchase across some months",
   },
   {
-    question: "What types of CCTV cameras do you install?",
+    question: "What will be my initial deposit?",
     answer:
-      "We install Wi-Fi, 4G SIM-based, IP network, and solar-powered cameras suitable for homes, businesses, and farms.",
+      "You will be required to make an upfront payment between 20-30% of the total system cost, and you will be able to spread the rest across a 0–36-months period, depending on the size and the requirement of  our financial partner requirements",
   },
   {
-    question: "Is after-sales support available?",
+    question: "Can I pay on delivery?",
     answer:
-      "Yes. We provide 24/7 customer support and ongoing maintenance for all our services.",
+      "No, you cannot. The available payment options are deferred payment financed by financial partners or outright purchase with a debit/credit card and payment by bank.",
   },
   {
-    question: "Do you offer flexible payment plans?",
+    question: "What type of faults will the maintenance warranty not cover?",
     answer:
-      "Yes. We provide installment plans and corporate agreements, especially for solar and fleet packages.",
+      "The maintenance warranty will ONLY cover manufactured faults or defects.",
+  },
+  {
+    question: "Who do I contact for enquiries or complaints?",
+    answer:
+      "Kindly place a complaint via our Customer Care Desk service@mbsiint.ng. Our Customer service will reach out to you.",
   },
 ];
 

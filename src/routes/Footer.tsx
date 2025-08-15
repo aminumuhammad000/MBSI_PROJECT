@@ -1,8 +1,6 @@
 import styles from "./Footer.module.css";
 import { Link } from "react-router-dom";
-// import style from "./Navbar.module.css";
-// import logo from "../assets/Images/logo.png";
-import logo from "../assets/Images/logo.jpg";
+import logo from "../assets/Images/logo.png";
 
 const routes = [
   // { path: "/", label: "Home" },
@@ -68,8 +66,8 @@ const Footer = () => {
           <a href="tel:+234810001598" rel="noopener noreferrer">
             +234810001598
           </a>
-          <a href="mailto:aminumuhammmad@gmail.com" rel="noopener noreferrer">
-            aminumuhammmad@gmail.com
+          <a href="mailto:service@mbsiint.ng" rel="noopener noreferrer">
+            service@mbsiint.ng
           </a>
         </div>
       </nav>
