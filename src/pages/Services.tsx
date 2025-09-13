@@ -1,8 +1,8 @@
 import ServiceCard from "../components/ServiceCard";
 import style from "./Services.module.css";
-import solarman from "../assets/Images/solarman.jpg";
-import carTracking from "../assets/Images/car-tracking.jpg";
-import cctv from "../assets/Images/cctv.jpg";
+import solarmen from "../assets/Images/solarmen.png";
+import cartracker from "../assets/Images/cartracker.png";
+import cctvinstaller from "../assets/Images/cctvinstller.png";
 import contracts from "../assets/Images/cctvBanner.png";
 
 import fuelSaving from "../assets/Images/fuel-saving.jpg";
@@ -11,19 +11,19 @@ const services = [
   {
     title: "Solar Energy Solutions",
     description: "",
-    imageUrl: solarman,
+    imageUrl: solarmen,
   },
   {
     title: "Car Tracking Devices",
     description:
       "Real-time GPS, anti-theft technology offering real-time vehicle location",
-    imageUrl: carTracking,
+    imageUrl: cartracker,
   },
   {
     title: "IP CCTV",
     description:
       "is a great way to keep an eye on your house or place of business from a mobile device.",
-    imageUrl: cctv,
+    imageUrl: cctvinstaller,
   },
   {
     title: "HD CCTV",
@@ -48,9 +48,10 @@ const Services = () => {
           Our Services: Smart, Secure, and Sustainable Solutions for Nigeria
         </h1>
         <p className={style.description}>
-          MBSI delivers reliable technology solutions across Nigeria — including
-          solar energy systems, vehicle tracking, smart CCTV security, and
-          general contracting services. Whether you're a homeowner, business, or
+          Magnificent Business Solutions International Limited (MBSI)delivers
+          reliable technology solutions across Nigeria — including solar energy
+          systems, vehicle tracking, smart CCTV security, and general
+          contracting services. Whether you're a homeowner, business, or
           institution, we offer secure, affordable, and sustainable services
           tailored to your needs.
         </p>
