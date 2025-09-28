@@ -63,11 +63,11 @@ const Footer = () => {
           >
             instagram
           </a>
-          <a href="tel:+234810001598" rel="noopener noreferrer">
-            +234810001598
+          <a href="tel:+2347077290974" rel="noopener noreferrer">
+            +2347077290974
           </a>
-          <a href="mailto:service@mbsiint.ng" rel="noopener noreferrer">
-            service@mbsiint.ng
+          <a href="mailto:magnificentinternational7@gmail.com" rel="noopener noreferrer">
+            magnificentinternational7@gmail.com
           </a>
         </div>
       </nav>

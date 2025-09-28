@@ -9,9 +9,9 @@ import fuelSaving from "../assets/Images/fuel-saving.jpg";
 
 const services = [
   {
-    title: "Solar Energy Solutions",
-    description: "",
-    imageUrl: solarmen,
+      title: "Solar Energy Solutions",
+  description: "Clean, reliable solar power systems to cut energy costs and ensure uninterrupted electricity.",
+  imageUrl: solarmen,
   },
   {
     title: "Car Tracking Devices",
